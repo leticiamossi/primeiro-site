@@ -1,52 +1,147 @@
-body {
-	
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-#banner{
-	width: 100%;
+h1{
+	display: block;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 110px;
+}
+
+nav li {
+	display: inline;
+	padding-left: 15px
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+#banner {
+	width: 100%;;
 }
 
 .principal{
-	background: #CCCCCC;
+	width: 70%;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #FFFFFF;
 	padding: 30px;
+	margin: 50px 15%;
+
+}
+
+.principal:hover {
+	border-color: #C78C19;
+}
+
+.principal:hover h2 {
+	font-size: 29px;
 }
 
 .titulo-centralizado {
 	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 15px;
 }
 
 p {
+	font-size: 19px;
 	text-align: center;
+	padding: 10px 0;
+}
+
+b {
+	font-weight: bold;
 }
 
 #missao {
 	font-size: 20px;
 }
 
-em strong {
-	color: red;
-}
-
-.itens {
+em {
 	font-style: italic;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+em b {
+	color: #C78C19;
 }
 
-ul {
+div h3 {
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.beneficios {
+	background: #C78C19;
+	margin-top: 50px;
+	padding: 20px 0;
+}
+
+.lista-beneficios {
+	width: 100%;
 	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%; 
+	vertical-align: top; 
+	text-align: center;
+}
+
+.lista-beneficios li:last-child {
+  border: 0px;
+}
+
+.itens {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-style: italic;
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	padding-right: 5%;
+	padding-left: 5%;
+	border-right: 1px solid #FFFFFF;
+	padding-top: 1%;
+}
+
+ul li:hover {
+	color: #000000;
+	font-size: 20px;
 }
 
 .imagembeneficios {
-	width: 50%;
+	padding: 0; 
+	width: 100%;
+}
+
+
+footer {
+	text-align: center;
+	background: url(imagens/bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
 }
