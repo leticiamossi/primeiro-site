@@ -16,14 +16,12 @@ header {
 
 h1 {
 	display: block;
-
 }
 
 nav {
 	position: absolute;
 	top: 110px;
 	right: 0;
-
 }
 
 nav li {
@@ -50,7 +48,6 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
-
 }
 
 .produtos li {
@@ -108,9 +105,6 @@ footer {
 
 /* css da página contato */
 
-main{
-	
-}
 
 form{
 	margin: 40px 0;
@@ -263,3 +257,54 @@ td, th{
 	margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	nav a {
+		font-size: 18px; 
+		padding: 0 10px;
+	}
+
+	.lista-beneficios, .imagem-beneficios, .enviar, table {
+		width: 100%;
+	}
+
+	.principal, .mapa-conteudo, .conteudo-beneficios, .video{
+		margin: 0 2em;
+	}
+
+	.video {
+		padding-top: 4em;
+	}
+
+	.produtos li {
+		width: auto;
+		margin: 1em 2em;
+		
+	}
+
+	.contato {
+		margin: 2em;
+	}
+
+	.input-padrao {
+		width: 70%;
+	}
+
+	select {
+		width: 10em;
+		height: 2em;
+	}
+}
