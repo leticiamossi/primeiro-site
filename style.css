@@ -105,6 +105,9 @@ footer {
 
 /* css da página contato */
 
+.contato {
+	margin: 0 2em;
+}
 
 form{
 	margin: 40px 0;
